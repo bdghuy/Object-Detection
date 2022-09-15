@@ -5,3 +5,13 @@ Implementation of custom detector with:
 - Feature Pyramid Network: [biFPN](https://arxiv.org/abs/1911.09070)
 - Weight Standardization: [paper](https://arxiv.org/abs/1903.10520)
 - PolyLoss: [paper](https://arxiv.org/abs/2204.12511)
+
+### Training
+
+```
+```
+
+### Inference
+
+```
+```
