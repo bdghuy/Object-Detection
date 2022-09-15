@@ -6,6 +6,19 @@ Implementation of custom detector with:
 - Weight Standardization: [paper](https://arxiv.org/abs/1903.10520)
 - PolyLoss: [paper](https://arxiv.org/abs/2204.12511)
 
+### Set up your dataset
+```
+train
+ |-img_1.jpg
+ |-img_2.jpg
+ | ...
+ |-_annotations.coco.json
+val
+ |-img_1.jpg
+ |-img_2.jpg
+ | ...
+ |-_annotations.coco.json
+```
 ### Training
 
 ```
