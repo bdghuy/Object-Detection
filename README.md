@@ -6,6 +6,12 @@ Implementation of custom detector with:
 - Weight Standardization: [paper](https://arxiv.org/abs/1903.10520)
 - PolyLoss: [paper](https://arxiv.org/abs/2204.12511)
 
+### Augmentation
+- Large Scale Jittering only: An image will be resized and cropped with a resize range of 0.1 to 2.0 of the original image size.
+
+<img src="https://github.com/bdghuy/Object-Detection/blob/main/images/LSJ.PNG" width="319" height="212">
+
+
 ### Set up your dataset
 ```
 train
