@@ -9,9 +9,11 @@ Implementation of custom detector with:
 ### Training
 
 ```
+python main.py --train_dir ${train_folder}  --val_dir ${val_folder}
 ```
 
 ### Inference
 
 ```
+python infer.py --num_classes ${num_classes} --img_path ${img_path}
 ```
