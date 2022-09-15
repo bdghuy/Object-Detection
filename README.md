@@ -30,3 +30,6 @@ python main.py --train_dir ${train_folder}  --val_dir ${val_folder}
 ```
 python infer.py --num_classes ${num_classes} --img_path ${img_path}
 ```
+
+### Experiment
+
