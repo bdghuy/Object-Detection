@@ -33,3 +33,5 @@ python infer.py --num_classes ${num_classes} --img_path ${img_path}
 
 ### Experiment
 
+<img src="https://github.com/bdghuy/Object-Detection/blob/main/img.PNG" width="359" height="113">
+
