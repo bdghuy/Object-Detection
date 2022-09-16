@@ -1,0 +1,11 @@
+tensorflow==2.8.2+zzzcolab20220719082949
+tensorflow-addons==0.17.1
+tensorflow-datasets==4.6.0
+tensorflow-estimator==2.8.0
+tensorflow-gcs-config==2.8.0
+tensorflow-hub==0.12.0
+tensorflow-io-gcs-filesystem==0.26.0
+tensorflow-metadata==1.10.0
+tensorflow-probability==0.16.0
+numpy==1.21.6
+albumentations==1.2.1
