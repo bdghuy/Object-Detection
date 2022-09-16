@@ -197,7 +197,11 @@ class DataGenerator(keras.utils.all_utils.Sequence):
             boxes.append([xmin, ymin, xmax, ymax])
           
           # Image augmentation
-          image, boxes, cls_ids = self.transforms(target_size=self.dim, training_mode=self.training_mode)(image, boxes, cls_ids)
+          try:
+            image, boxes, cls_ids = self.transforms(target_size=self.dim, training_mode=self.training_mode)(image, boxes, cls_ids)
+          except:
+            continue
+            
           if len(boxes) == 0:
             continue
           boxes = convert_to_xywh(np.array(boxes))
