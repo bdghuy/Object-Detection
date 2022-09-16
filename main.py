@@ -30,7 +30,7 @@ parser.add_argument('--D_head', default=3, type=int)
 parser.add_argument('--checkpoint', default='checkpoint', type=str)
 
 args = parser.parse_args()
-os.makedirs(args.output, exist_ok=True)
+os.makedirs(args.checkpoint, exist_ok=True)
 
 
 # Data generator
