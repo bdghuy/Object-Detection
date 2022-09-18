@@ -22,7 +22,7 @@ parser.add_argument('--D_head', default=3, type=int)
 parser.add_argument('--weights', default='checkpoint/weights.h5', type=str)
 
 # nms
-parser.add_argument('--conf_threshold', default=0.75, type=float)
+parser.add_argument('--conf_threshold', default=0.5, type=float)
 parser.add_argument('--iou_threshold', default=0.5, type=float)
 
 # --------
