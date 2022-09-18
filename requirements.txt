@@ -9,3 +9,8 @@ tensorflow-metadata==1.10.0
 tensorflow-probability==0.16.0
 numpy==1.21.6
 albumentations==1.2.1
+pycocotools==2.0.4
+mapcalc==0.2.2
+keras==2.8.0
+Keras-Preprocessing==1.1.2
+keras-vis==0.4.1
