@@ -56,4 +56,5 @@ test_img = draw_bboxes(test_img[0],
                        detections.nmsed_scores[0][:num_detections])
 
 os.makedirs(args.result, exist_ok=True)
+test_img = cv2.cvtColor(test_img, cv2.COLOR_RGB2BGR)
 cv2.imwrite(os.path.join(args.result, os.path.basename(args.img_path)), test_img)
